@@ -11,13 +11,14 @@ The research attempts to identify the factors for a successful rocket landing.
 ### Skills
 Data collection using SpaceX REST API and web scraping techniques.
 Data wrangling and feature engineering.
+Exploratory data analysis (EDA) with data visualization techniques, considering payload, launch site, flight number, and yearly trend.
+SQL-based data analysis, calculating total payload, payload range for successful launches, and total number of successful and failed outcomes.
+Geospatial visualisation with maps of launch sites.
+Machine learning model development and evaluation using logistic regression, support vector machine (SVM), decision tree, and K-nearest neighbor (KNN). 
 
-Explore data with data visualization techniques, considering payload, launch site, flight number and yearly trend
-Analyze the data with SQL, calculating total payload, payload range for successful launches, and total # of successful and failed outcomes
-Explore launch site success rates and proximity to geographical markers
-Visualize the launch sites with the most success and successful payload ranges
-Build Models to predict landing outcomes using logistic regression, support vector machine (SVM), decision tree and K-nearest neighbor (KNN)
-Results
+
+
+
 # Exploratory Data Analysis:
 Launch success has improved over time
 KSC LC-39A has the highest success rate among landing sites
