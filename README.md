@@ -1,16 +1,17 @@
 # Data-Capstone
-# Background
+### Background
 SpaceX is one of the most successful companies for affordable space travel. SpaceX advertises the Falcon9 rocket launches as 62 million dollars, whereas other providers cost upwards of 165 million dollars each. The reason for this price difference is that the first stage of launching can be reused. Therefore, if we determine whether the first stage will land, we can determine the cost of the launch. The goal of this project is to use the public information and training a machine learning model to predict if SpaceX will land successfully and reuse the first stage.
 
-# Explore
-How payload mass, launch site, number of flights, and orbits affect first-stage landing success
-Rate of successful landings over time
-Best predictive model for successful landing (binary classification)
-# Executive Summary
+### Objectives
 The research attempts to identify the factors for a successful rocket landing.
+- Analyse how features such as payload mass, launch site, flight number, and orbit type affect landing success.
+- Explore trends in landing success over time.
+- Build and evaluate machine learning models for binary classification of successful and unsuccessful landings.
 
-Collect data using SpaceX REST API and web scraping techniques
-Wrangle data to create success/fail outcome variable
+### Skills
+Data collection using SpaceX REST API and web scraping techniques.
+Data wrangling and feature engineering.
+
 Explore data with data visualization techniques, considering payload, launch site, flight number and yearly trend
 Analyze the data with SQL, calculating total payload, payload range for successful launches, and total # of successful and failed outcomes
 Explore launch site success rates and proximity to geographical markers
