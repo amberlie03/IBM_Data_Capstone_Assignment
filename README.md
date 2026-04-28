@@ -35,7 +35,14 @@ Created a BeautifulSoup object from the HTML response to extract and parse addit
 Converted data into DataFrames.
 
 ## Data Wrangling
-Converted landing outcomes into binary values where 1 = success, 0 = failure
+Converted landing outcomes into binary values where 1 = success, 0 = failure.
+Handled missing values using the means of columns.
+Cleaned and merged datasets from different sources.
+
+## Exploratory Data Analysis
+### Key Findings
+
+### Visualisation
 
 
 
@@ -55,15 +62,8 @@ Construct data into a dictionary and create a data frame from it
 Filter the data for Falcon 9 
 Replace missing values with the column mean
 Export the data to CSV
-# Data Collection - Web Scraping
-Request Falcon 9 data from the static url
-Create a BeautifulSoup object from the HTML response
-Extract all the column names from HTML table
-Parse the tables to collect data 
-Convert data into dictionary and create data frame
-Export to CSV
-# Data Wrangling
-Convert outcomes into 1 for a successful landing and 0 for an unsuccessful landing
+
+
 # EDA with Visualization
 Create charts to analyze relationships and show comparisons
 # EDA with SQL
