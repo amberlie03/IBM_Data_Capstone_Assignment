@@ -27,7 +27,12 @@ Machine learning model development and evaluation using logistic regression, sup
 ## Data Collection
 ### API
 Retrieved the launch data using SpaceX REST API.
-
+JSON responses were parsed into structured DataFrames.
+Data filtered for Falcon 9 launches only.
+### Web Scraping
+Requested Falcon 9 data from static url.
+Created a BeautifulSoup object from the HTML response to extract and parse additional launch data.
+Converted data into DataFrames.
 
 
 
