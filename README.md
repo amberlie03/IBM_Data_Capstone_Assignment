@@ -34,6 +34,9 @@ Requested Falcon 9 data from static url.
 Created a BeautifulSoup object from the HTML response to extract and parse additional launch data.
 Converted data into DataFrames.
 
+## Data Wrangling
+Converted landing outcomes into binary values where 1 = success, 0 = failure
+
 
 
 # Exploratory Data Analysis:
