@@ -2,13 +2,13 @@
 ## Background
 SpaceX is one of the most successful companies for affordable space travel. SpaceX advertises the Falcon9 rocket launches as 62 million dollars, whereas other providers cost upwards of 165 million dollars each. The reason for this price difference is that the first stage of launching can be reused. Therefore, if we determine whether the first stage will land, we can determine the cost of the launch. The goal of this project is to use the public information and training a machine learning model to predict if SpaceX will land successfully and reuse the first stage.
 
-## Objectives
+## Objectives 
 The research attempts to identify the factors for a successful rocket landing.
 - Analyse how features such as payload mass, launch site, flight number, and orbit type affect landing success.
 - Explore trends in landing success over time.
 - Build and evaluate machine learning models for binary classification of successful and unsuccessful landings.
 
-## Skills
+## Skills 🧠
 Data collection using SpaceX REST API and web scraping techniques.
 Data wrangling and feature engineering.
 Exploratory data analysis (EDA) with data visualization techniques, considering payload, launch site, flight number, and yearly trend.
@@ -16,7 +16,7 @@ SQL-based data analysis, calculating total payload, payload range for successful
 Geospatial visualisation with maps of launch sites.
 Machine learning model development and evaluation using logistic regression, support vector machine (SVM), decision tree, and K-nearest neighbour (KNN). 
 
-## Tools 
+## Tools ⚙️
 - Python (pandas, numpy, scikit-learn)
 - Visualisations using matplotlib, seaborn, plotly, folium
 - Web scraping: BeautifulSoup, requests
@@ -24,7 +24,7 @@ Machine learning model development and evaluation using logistic regression, sup
 - Plotly Dash
 - SQL
 
-## Data Collection
+## Data Collection 📈
 ### API
 Retrieved the launch data using SpaceX REST API.
 JSON responses were parsed into structured DataFrames.
@@ -34,12 +34,12 @@ Requested Falcon 9 data from static url.
 Created a BeautifulSoup object from the HTML response to extract and parse additional launch data.
 Converted data into DataFrames.
 
-## Data Wrangling
+## Data Wrangling 🧹
 Converted landing outcomes into binary values where 1 = success, 0 = failure.
 Handled missing values using the means of columns.
 Cleaned and merged datasets from different sources.
 
-## Exploratory Data Analysis
+## Exploratory Data Analysis 🔎
 ### Key Findings using SQL queries
 - Launch site success rate increased over time.
 - KSC LC-39A has the highest success rate among landing sites.
@@ -49,47 +49,33 @@ Cleaned and merged datasets from different sources.
 - Most launches are close to the equator and coastlines, further from cities.
 - There are clear relationships between payload, orbit type, and landing success.
 
-## Geospatial Analysis
+## Geospatial Analysis 🗺️
 Maps to visualise launch sites were created using Folium maps.
 Proximity to coastlines, cities, and geographical features were analysed.
 Success rates compared by location.
 
-## Dashboard
+## Dashboard 📊
 An interactive dashboard was built using Plotly Dash, such as a pie chart of successful vs unsuccessful launches. Another example is a scatter plot of payload mass vs landing site success by booster version.
 
-## Machine Learning Models
+## Machine Learning Models 🤖 
 Models included:
 - Logistic Regression
 - Support Vector Machine (SVM)
 - Decision Tree
 - K-Nearest Neighbours (KMM)
 ### Model Methodology
+Standardised features using StandardScaler.
+Data was split into training and test sets.
+GridSearchCV was 
+
+## Results
 
 
-
-# Predictive Analytics
-All models performed similarly on the test set. The decision tree model slightly outperformed in accuracy
-# Methodology
-Request rocket launch data from API
-Decode the response and turn into a data frame using .json_normalize()
-Request info by applying custom functions
-Construct data into a dictionary and create a data frame from it
-Filter the data for Falcon 9 
-Replace missing values with the column mean
-Export the data to CSV
-
-
-
-# Predictive Analytics
-Create NumPy array from the Class column
-Standardize the data with StandardScaler. Fit and transform the data.
-Split the data using train_test_split
-Create a GridSearchCV object for parameter optimization
-Apply GridSearchCV on different algorithms: logistic regression, support vector machine, decision tree, K-Nearest Neighbor
-Calculate accuracy on the test data for all models
-Assess the confusion matrix for all models
-Identify the best model using Jaccard_Score, F1_Score and Accuracy
-# Conclusion
+## Conclusion
 Decision Tree is the best algorithm model for this data 
+
+
+
+
 
 
