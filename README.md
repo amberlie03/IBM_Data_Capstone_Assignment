@@ -40,22 +40,24 @@ Handled missing values using the means of columns.
 Cleaned and merged datasets from different sources.
 
 ## Exploratory Data Analysis
-### Key Findings
+### Key Findings using SQL queries
 - Launch site success rate increased over time.
-- KSC LC-39A has the highest success rate of launches.
+- KSC LC-39A has the highest success rate among landing sites.
 - Orbits ES-L1, GEO, HEO, and SSO have 100% success rate.
 - In general, the higher the payload mass, the better the landing outcome.
 ### Visualisation
 - Most launches are close to the equator and coastlines, further from cities.
 - There are clear relationships between payload, orbit type, and landing success.
 
+## Geospatial Analysis
+Maps to visualise launch sites were created using Folium maps.
+Proximity to coastlines, cities, and geographical features were analysed.
+Success rates compared by location.
 
-# Exploratory Data Analysis:
-Launch success has improved over time
-KSC LC-39A has the highest success rate among landing sites
-Orbits ES-L1, GEO, HEO, and SSO have a 100% success rate
-# Visualization / Analytics:
-Most launch sites are near the equator, and all are close to the coast
+## Dashboard
+
+
+
 # Predictive Analytics
 All models performed similarly on the test set. The decision tree model slightly outperformed in accuracy
 # Methodology
@@ -68,12 +70,7 @@ Replace missing values with the column mean
 Export the data to CSV
 
 
-# EDA with Visualization
-Create charts to analyze relationships and show comparisons
-# EDA with SQL
-Query the data to understand more about the data
-# Maps with Folium
-Create maps to visualize launch sites, view launch outcomes and see distance to proximities
+
 # Dashboard with Plotly Dash
 Create dashboard
 Pie chart showing successful launches
