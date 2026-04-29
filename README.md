@@ -14,7 +14,7 @@ Data wrangling and feature engineering.
 Exploratory data analysis (EDA) with data visualization techniques, considering payload, launch site, flight number, and yearly trend.
 SQL-based data analysis, calculating total payload, payload range for successful launches, and total number of successful and failed outcomes.
 Geospatial visualisation with maps of launch sites.
-Machine learning model development and evaluation using logistic regression, support vector machine (SVM), decision tree, and K-nearest neighbor (KNN). 
+Machine learning model development and evaluation using logistic regression, support vector machine (SVM), decision tree, and K-nearest neighbour (KNN). 
 
 ## Tools 
 - Python (pandas, numpy, scikit-learn)
@@ -55,6 +55,15 @@ Proximity to coastlines, cities, and geographical features were analysed.
 Success rates compared by location.
 
 ## Dashboard
+An interactive dashboard was built using Plotly Dash, such as a pie chart of successful vs unsuccessful launches. Another example is a scatter plot of payload mass vs landing site success by booster version.
+
+## Machine Learning Models
+Models included:
+- Logistic Regression
+- Support Vector Machine (SVM)
+- Decision Tree
+- K-Nearest Neighbours (KMM)
+### Model Methodology
 
 
 
@@ -71,10 +80,6 @@ Export the data to CSV
 
 
 
-# Dashboard with Plotly Dash
-Create dashboard
-Pie chart showing successful launches
-Scatter chart showing Payload Mass vs. Success Rate by Booster Version
 # Predictive Analytics
 Create NumPy array from the Class column
 Standardize the data with StandardScaler. Fit and transform the data.
