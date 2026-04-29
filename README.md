@@ -45,7 +45,6 @@ Cleaned and merged datasets from different sources.
 - KSC LC-39A has the highest success rate of launches.
 - Orbits ES-L1, GEO, HEO, and SSO have 100% success rate.
 - In general, the higher the payload mass, the better the landing outcome.
-
 ### Visualisation
 - Most launches are close to the equator and coastlines, further from cities.
 - There are clear relationships between payload, orbit type, and landing success.
