@@ -9,12 +9,12 @@ The research attempts to identify the factors for a successful rocket landing.
 - Build and evaluate machine learning models for binary classification of successful and unsuccessful landings.
 
 ## Skills 🧠
-Data collection using SpaceX REST API and web scraping techniques.
-Data wrangling and feature engineering.
-Exploratory data analysis (EDA) with data visualization techniques, considering payload, launch site, flight number, and yearly trend.
-SQL-based data analysis, calculating total payload, payload range for successful launches, and total number of successful and failed outcomes.
-Geospatial visualisation with maps of launch sites.
-Machine learning model development and evaluation using logistic regression, support vector machine (SVM), decision tree, and K-nearest neighbour (KNN). 
+- Data collection using SpaceX REST API and web scraping techniques.
+- Data wrangling and feature engineering.
+- Exploratory data analysis (EDA) with data visualization techniques, considering payload, launch site, flight number, and yearly trend.
+- SQL-based data analysis, calculating total payload, payload range for successful launches, and total number of successful and failed outcomes.
+- Geospatial visualisation with maps of launch sites.
+- Machine learning model development and evaluation using logistic regression, support vector machine (SVM), decision tree, and K-nearest neighbour (KNN). 
 
 ## Tools ⚙️
 - Python (pandas, numpy, scikit-learn)
