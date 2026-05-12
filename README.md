@@ -66,7 +66,8 @@ Models included:
 ### Model Methodology
 Standardised features using StandardScaler.
 Data was split into training and test sets.
-GridSearchCV was 
+GridSearchCV was used to refine parameters.
+Models were evaluated using accuracy, F1 score, and Jaccard score.
 
 ## Results
 
