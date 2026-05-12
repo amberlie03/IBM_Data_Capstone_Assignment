@@ -70,13 +70,20 @@ GridSearchCV was used to refine parameters.
 Models were evaluated using accuracy, F1 score, and Jaccard score.
 
 ## Results
-
+All models performed similarly on the test set.
+The decision tree achieved the highest accuracy overall.
+Model performance confirms strong relationships between landing success and selected features.
 
 ## Conclusion
-Decision Tree is the best algorithm model for this data 
+Decision Tree was the best algorithm model for this data.
+Launch success has increased significantly over time.
+Launch site and orbit type are key predictors of success.
+Payload mass shows a positive relationship with landing success.
+Most launches occur near coastlines and equatorial regions.
 
-
-
-
+## Future Improvements
+- Incorporate additional real-time or external datasets.
+- Experiment with more advanced models.
+- Improve predictive performance.
 
 
