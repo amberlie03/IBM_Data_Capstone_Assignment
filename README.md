@@ -26,18 +26,18 @@ Machine learning model development and evaluation using logistic regression, sup
 
 ## Data Collection 📈
 ### API
-Retrieved the launch data using SpaceX REST API.
-JSON responses were parsed into structured DataFrames.
-Data filtered for Falcon 9 launches only.
+- Retrieved the launch data using SpaceX REST API.
+- JSON responses were parsed into structured DataFrames.
+- Data filtered for Falcon 9 launches only.
 ### Web Scraping
-Requested Falcon 9 data from static url.
-Created a BeautifulSoup object from the HTML response to extract and parse additional launch data.
-Converted data into DataFrames.
+- Requested Falcon 9 data from static url.
+- Created a BeautifulSoup object from the HTML response to extract and parse additional launch data.
+- Converted data into DataFrames.
 
 ## Data Wrangling 🧹
-Converted landing outcomes into binary values where 1 = success, 0 = failure.
-Handled missing values using the means of columns.
-Cleaned and merged datasets from different sources.
+- Converted landing outcomes into binary values where 1 = success, 0 = failure.
+- Handled missing values using the means of columns.
+- Cleaned and merged datasets from different sources.
 
 ## Exploratory Data Analysis 🔎
 ### Key Findings using SQL queries
@@ -50,9 +50,9 @@ Cleaned and merged datasets from different sources.
 - There are clear relationships between payload, orbit type, and landing success.
 
 ## Geospatial Analysis 🗺️
-Maps to visualise launch sites were created using Folium maps.
-Proximity to coastlines, cities, and geographical features were analysed.
-Success rates compared by location.
+- Maps to visualise launch sites were created using Folium maps.
+- Proximity to coastlines, cities, and geographical features were analysed.
+- Success rates compared by location.
 
 ## Dashboard 📊
 An interactive dashboard was built using Plotly Dash, such as a pie chart of successful vs unsuccessful launches. Another example is a scatter plot of payload mass vs landing site success by booster version.
@@ -64,22 +64,22 @@ Models included:
 - Decision Tree
 - K-Nearest Neighbours (KMM)
 ### Model Methodology
-Standardised features using StandardScaler.
-Data was split into training and test sets.
-GridSearchCV was used to refine parameters.
-Models were evaluated using accuracy, F1 score, and Jaccard score.
+1. Standardised features using StandardScaler.
+2. Data was split into training and test sets.
+3. GridSearchCV was used to refine parameters.
+4. Models were evaluated using accuracy, F1 score, and Jaccard score.
 
 ## Results
-All models performed similarly on the test set.
-The decision tree achieved the highest accuracy overall.
-Model performance confirms strong relationships between landing success and selected features.
+- All models performed similarly on the test set.
+- The decision tree achieved the highest accuracy overall.
+- Model performance confirms strong relationships between landing success and selected features.
 
 ## Conclusion
-Decision Tree was the best algorithm model for this data.
-Launch success has increased significantly over time.
-Launch site and orbit type are key predictors of success.
-Payload mass shows a positive relationship with landing success.
-Most launches occur near coastlines and equatorial regions.
+- Decision Tree was the best algorithm model for this data.
+- Launch success has increased significantly over time.
+- Launch site and orbit type are key predictors of success.
+- Payload mass shows a positive relationship with landing success.
+- Most launches occur near coastlines and equatorial regions.
 
 ## Future Improvements
 - Incorporate additional real-time or external datasets.
